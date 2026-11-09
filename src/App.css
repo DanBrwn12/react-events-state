@@ -1,0 +1,38 @@
+.portfolio {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toolbar button {
+  padding: 10px 15px;
+  border: 1px solid #555;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+}
+
+.toolbar button.active {
+  background-color: #333;
+  color: white;
+}
+
+.project-list {
+  column-count: 3;
+  column-gap: 12px;
+}
+
+.project-list img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+  break-inside: avoid;
+}
